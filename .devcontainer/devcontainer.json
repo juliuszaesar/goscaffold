@@ -1,0 +1,13 @@
+{
+  "name": "Go DevContainer",
+  "image": "mcr.microsoft.com/vscode/devcontainers/go",
+  "forwardPorts": [4000],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "golang.go",
+        "ms-vscode.go"
+      ]
+    }
+  }
+}

@@ -1,3 +1,6 @@
+// Package service contains application services that orchestrate business operations.
+// Services coordinate between domain entities and infrastructure components,
+// implementing use cases while maintaining clean architecture principles.
 package service
 
 import (
